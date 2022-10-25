@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+   
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+    align-items: center;
+
+}
+
+img {
+ 
+  width: 50px;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.clock {
+    position: relative;
+    background-color: lightgrey;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 5px solid;
+}
+
+.number {
+    position: absolute;
+    font-size: 27px;
+    font-weight: 50%;
+   
+
+
+
+}
+
+.tweleve
+{
+    position: absolute;
+    size: 6px;
+    font-weight: 25px solid ;
+    top: 20px;
+    left: 49%;
+    transform: translate(-50);
+}
+.three{
+    position:absolute;
+   
+    top: 50%;
+    left: 95%;
+
+    }
+
+ .six{
+
+    position: absolute;
+    top: 50%;
+    left: 2%;
+ }   
+
+ .nine{
+
+    position: absolute;
+   top: 95%;
+   left: 50%;
+   
+    
+ }
